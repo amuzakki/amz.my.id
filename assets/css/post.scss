@@ -261,15 +261,6 @@ $prompt-newer: "{{ site.data.label.post.button.next }}";
       &.fa-weibo {
         @include btn-sharing-color(rgb(229, 20, 43));
       }
-      &.fa-whatsapp {
-        @include btn-sharing-color(rgb(37, 211, 102));
-      }
-      &.fa-pinterest {
-        @include btn-sharing-color(rgb(230, 0, 35));
-      }
-      &.fa-linkedin {
-        @include btn-sharing-color(rgb(40, 103, 178));
-      }
     }
 
   } // .share-icons

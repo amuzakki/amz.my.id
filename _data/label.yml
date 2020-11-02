@@ -11,7 +11,7 @@ panel:
   toc: "Contents"
 
 post:
-  relate_posts: "Related Post"
+  relate_posts: "Further Reading"
   button:
     next: Newer
     previous: Older
