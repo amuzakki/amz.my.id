@@ -92,9 +92,9 @@
       {% assign post = site.posts[index] %}
       <div class="card">
         <a href="{{ post.url | relative_url }}">
-          <div class="card-body">
+          <div class="card-body py-2">
             {% include timeago.html date=post.date class="small" %}
-            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>{{ post.title }}</h3>
+            <h3 class="pt-0 mt-1 mb-1" data-toc-skip>{{ post.title }}</h3>
             <div class="text-muted small">
               <p>
                 {% include no-linenos.html content=post.content %}
