@@ -18,7 +18,7 @@ layout: default
       <div class="post-meta text-muted d-flex flex-column">
         <!-- Published date and author -->
         <div>
-          Posted
+          <i class="far fa-calendar fa-fw"></i> Posted
           {% include timeago.html date=page.date tooltip=true %}
           by
           <span class="author">
@@ -57,6 +57,10 @@ layout: default
           views
         </div>
         {% endif %}
+
+        <div>
+          <i class="far fa-clock fa-fw"></i> <span>{% include reading-time.html %}</span>
+        </div>
 
       </div> <!-- .post-meta -->
 
